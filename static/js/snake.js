@@ -3,11 +3,11 @@ let gameOver = false;
 
 let lastRenderTime = 0;
 //board size same as in style.css grid-template-rows and grid-template-columns
-const boardSize = 16;
+const boardSize = 21;
 //snake settings
 const expansionSnake = 1;
 const snakeBody = [{ x: 11, y: 11 }];
-const snakeSpeed = 6;
+const snakeSpeed = 4;
 let newSegments = 0;
 
 //game loop
